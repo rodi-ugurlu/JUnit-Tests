@@ -1,8 +1,9 @@
-package com.rodiugurlu.junittests.service;
+package com.rodiugurlu.junittests.service.impl;
 
 import com.rodiugurlu.junittests.entity.Todo;
 import com.rodiugurlu.junittests.exception.NotFoundException;
 import com.rodiugurlu.junittests.repository.TodoRepository;
+import com.rodiugurlu.junittests.service.ITodoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

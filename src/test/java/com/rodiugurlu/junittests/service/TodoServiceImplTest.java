@@ -3,6 +3,7 @@ package com.rodiugurlu.junittests.service;
 import com.rodiugurlu.junittests.entity.Todo;
 import com.rodiugurlu.junittests.exception.NotFoundException;
 import com.rodiugurlu.junittests.repository.TodoRepository;
+import com.rodiugurlu.junittests.service.impl.TodoServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

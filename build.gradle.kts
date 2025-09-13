@@ -27,6 +27,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.projectlombok:lombok:${VERSIONS.LOMBOK_VERSION}")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
     annotationProcessor("org.projectlombok:lombok:${VERSIONS.LOMBOK_VERSION}")
 
     runtimeOnly("com.h2database:h2")
